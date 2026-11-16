@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Snacks and Street Foods | Cuisine de INNHS</title>
+<meta name="description" content="Small bites, big cravings around INNHS.">
+<meta property="og:title" content="Snacks and Street Foods | Cuisine de INNHS">
+<meta property="og:description" content="Small bites, big cravings around INNHS.">
+<meta name="theme-color" content="#E87532">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8D%9C%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..500&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="progress" id="progress"></div>
+<header class="site-head">
+  <div class="wrap head-in">
+    <a class="brand" href="index.html" aria-label="Cuisine de INNHS, home"><span>Cuisine de</span><span class="pill">INNHS</span></a>
+    <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="nav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>Menu</button>
+    <nav class="nav" id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="meals.html">Meals and Everyday Eats</a></li><li><a href="snacks.html" aria-current="page">Snacks and Street Foods</a></li><li><a href="gallery.html">Gallery</a></li></ul></nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+
+<section class="page-head ph2"><div class="wrap">
+  <div class="chip-row"><p class="eyebrow chip">Snacks and Street Foods</p></div>
+  <h1>Small Bites, Big Cravings!</h1>
+  <div class="intro-copy"><p>Sometimes, a full meal is not what you need. During recess, short breaks, or after classes, a quick and delicious snack can be just what you are looking for.</p><p>Explore different snacks and street food favorites available around INNHS.</p></div>
+</div></section>
+<section class="sec"><div class="wrap">
+  <div class="toolbar"><label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg><span class="sr">Search snacks</span><input id="q" type="search" placeholder="Search a snack or eatery" autocomplete="off"></label><button type="button" class="btn small" id="surprise">Surprise me</button><span class="status" id="status" role="status" aria-live="polite"></span></div>
+  <div class="sec-head"><div><p class="eyebrow">Featured</p><h2>Snack Favorites</h2></div></div>
+  <div class="grid3 stagger" data-cards="snacks" data-from="0" data-to="3"></div>
+</div></section>
+<section class="sec alt wavy"><div class="wrap">
+  <div class="sec-head"><div><p class="eyebrow">Grab and go</p><h2>Quick Bites Around Campus</h2></div></div>
+  <div class="grid3 q" data-cards="snacks" data-from="3" data-to="9" data-ar="ar11"></div>
+</div></section>
+
+</main>
+<footer class="foot">
+  <div class="wrap"><div class="grid">
+    <div><a class="brand" href="index.html"><span>Cuisine de</span><span class="pill">INNHS</span></a>
+    <p>Discover the Flavors Around You. A student food discovery guide for Ilocos Norte National High School.</p></div>
+    <div><h2>Explore</h2><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="meals.html">Meals and Everyday Eats</a></li><li><a href="snacks.html">Snacks and Street Foods</a></li><li><a href="gallery.html">Gallery</a></li></ul></div>
+    <p class="fine">Prices and menus can change, so check with the eatery. Cuisine de INNHS is a student project and is not affiliated with any food business.</p>
+  </div></div>
+</footer>
+<div id="rain" aria-hidden="true" hidden></div>
+<div class="dock"><button type="button" id="rain-toggle" aria-pressed="true">Falling food: On</button><button type="button" class="up" id="to-top" aria-label="Back to top">&uarr;</button></div>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
